@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pull_to_reveal/pull_to_reveal.dart';
+import 'package:pull_to_reveal/pull_to_reveal_flutter.dart';
 
 void main() => runApp(const PullToRevealExampleApp());
 
