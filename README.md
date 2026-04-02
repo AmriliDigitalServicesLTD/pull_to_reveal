@@ -28,7 +28,7 @@ None of Flutter's built-in widgets provide this. `pull_to_reveal` does.
 
 ## Demo
 
-> 📹 **[Watch the demo](https://raw.githubusercontent.com/AmriliDigitalServicesLTD/pull_to_reveal/main/example/demo.gif)**
+> 📹 ![Watch the demo](https://raw.githubusercontent.com/AmriliDigitalServicesLTD/pull_to_reveal/main/example/demo.gif)
 
 The demo show:
 - Scrollable child (ListView) with slide mode — pull from top to reveal
@@ -436,7 +436,7 @@ Please run `dart analyze` and `flutter test` before submitting.
 
 If you find this package useful, you can support me:
 
-- 💳 Flutterwave (cards, bank, USSD): (https://flutterwave.com/donate/rboe3lpx5do8)
+- 💳 [Flutterwave (cards, bank, USSD)](https://flutterwave.com/donate/rboe3lpx5do8)
 
 Your support helps me maintain and improve this package ❤️
 
