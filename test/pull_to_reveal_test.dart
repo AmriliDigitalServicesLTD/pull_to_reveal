@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pull_to_reveal/src/animations.dart';
-import 'package:pull_to_reveal/src/physics.dart';
-import 'package:pull_to_reveal/pull_to_reveal.dart';
+import 'package:pull_to_reveal_flutter/pull_to_reveal.dart';
+import 'package:pull_to_reveal_flutter/src/animations.dart';
+import 'package:pull_to_reveal_flutter/src/physics.dart';
 
 void main() {
   // ── PullPhysics ────────────────────────────────────────────────────────────

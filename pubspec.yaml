@@ -1,11 +1,12 @@
-name: pull_to_reveal
+name: pull_to_reveal_flutter
 description: >-
   A Flutter package that enables WeChat-style hard pull-to-reveal interactions,
   exposing a hidden background layer with smooth resistance physics and
   configurable animation modes.
 version: 0.1.0
 
-repository: https://github.com/AmriliDigitalServicesLTD/pull_to_reveal
+repository: https://github.com/AmriliDigitalServicesLTD/pull_to_reveal.git
+
 
 environment:
   sdk: ">=3.3.0 <4.0.0"
