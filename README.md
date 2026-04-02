@@ -70,7 +70,7 @@ flutter pub get
 
 Import in your Dart file:
 ```dart
-import 'package:pull_to_reveal/pull_to_reveal.dart';
+import 'package:pull_to_reveal/pull_to_reveal_flutter.dart';
 ```
 
 ---
@@ -78,7 +78,7 @@ import 'package:pull_to_reveal/pull_to_reveal.dart';
 ## Quick start
 ```dart
 import 'package:flutter/material.dart';
-import 'package:pull_to_reveal/pull_to_reveal.dart';
+import 'package:pull_to_reveal/pull_to_reveal_flutter.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
