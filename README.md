@@ -29,21 +29,8 @@ None of Flutter's built-in widgets provide this. `pull_to_reveal` does.
 ## Demo
 
 > 📹 **[Watch the demo](https://raw.githubusercontent.com/AmriliDigitalServicesLTD/pull_to_reveal/main/example/demo.gif)**
->
-> *(Replace this link with your actual YouTube link after recording the example app.)*
 
-<!-- Replace the line below with your actual GIF once recorded -->
-> 🎬 **GIF demo coming soon** — run the `/example` app to see it live.
-
-**To create your own demo:**
-1. Run `flutter run` inside the `/example` folder on a physical device or emulator.
-2. Use your device's built-in screen recorder or [scrcpy](https://github.com/Genymobile/scrcpy) on desktop.
-3. Toggle between **Slide / Fade / Scale** modes and both **Scrollable / Non-scrollable** child types.
-4. Convert the recording to GIF using [ezgif.com](https://ezgif.com) or [ffmpeg](https://ffmpeg.org).
-5. Upload the GIF to your GitHub repo and replace the placeholder above with the raw URL.
-6. Optionally upload to YouTube and replace the YouTube link above.
-
-The demo should show:
+The demo show:
 - Scrollable child (ListView) with slide mode — pull from top to reveal
 - Non-scrollable child (Column) — drag anywhere to reveal
 - All three reveal modes: slide, fade, scale
@@ -466,5 +453,6 @@ Copyright (c) 2026 Amrili Digital Services Limited
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
-```#   p u l l _ t o _ r e v e a l  
+```#   p u l l _ t o _ r e v e a l 
+ 
  

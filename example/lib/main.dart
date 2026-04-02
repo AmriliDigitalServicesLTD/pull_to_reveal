@@ -53,19 +53,7 @@ class _DemoHomeState extends State<_DemoHome> {
     super.dispose();
   }
 
-  void _handleReveal() {
-    if (!_useCustomBackground) {
-      // Navigate to another screen when no custom background.
-      Navigator.push(
-        context,
-        MaterialPageRoute<void>(
-          builder: (_) => const _RevealedScreen(),
-        ),
-      ).then((_) => _controller.dismiss());
-    }
-    // If using custom background, nothing extra needed —
-    // the background widget is already visible.
-  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -278,36 +266,6 @@ class _HiddenPlaceCard extends StatelessWidget {
               style:
               const TextStyle(color: Colors.white, fontSize: 12)),
         ],
-      ),
-    );
-  }
-}
-
-// ── Revealed screen (navigation mode) ────────────────────────────────────────
-
-class _RevealedScreen extends StatelessWidget {
-  const _RevealedScreen();
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Revealed Screen')),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(Icons.check_circle_outline, size: 72, color: Colors.green),
-            SizedBox(height: 16),
-            Text('Navigated here via onReveal!',
-                style: TextStyle(fontSize: 18)),
-            SizedBox(height: 8),
-            Text(
-              'Toggle "Custom BG" off in the demo\nto trigger this screen.',
-              textAlign: TextAlign.center,
-              style: TextStyle(color: Colors.white54),
-            ),
-          ],
-        ),
       ),
     );
   }
