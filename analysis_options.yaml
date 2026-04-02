@@ -1,0 +1,10 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Enforce good package hygiene
+    - public_member_api_docs
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_print
+    - use_super_parameters

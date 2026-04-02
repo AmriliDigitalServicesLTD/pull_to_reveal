@@ -1,0 +1,21 @@
+name: pull_to_reveal_example
+description: Example app for pull_to_reveal package.
+publish_to: 'none'        # ← important: prevents accidental publish
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pull_to_reveal:
+    path: ../             # ← resolves to the parent package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0    # ← add this
+
+flutter:
+  uses-material-design: true
