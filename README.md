@@ -60,7 +60,7 @@ The demo show:
 Add to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  pull_to_reveal_flutter: ^0.1.11
+  pull_to_reveal_flutter: ^0.1.2
 ```
 
 Then run:

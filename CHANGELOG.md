@@ -1,4 +1,4 @@
-## 0.1.11
+## 0.1.2
 
 * Initial release.
 * `PullToReveal` widget with universal child support (scrollable and non-scrollable).
